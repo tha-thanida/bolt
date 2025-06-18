@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Play, Pause, Download, Share2, Volume2, Facebook, Twitter } from 'lucide-react';
 
+
+
 interface AudioPlayerProps {
   audioUrl: string;
   podcastTitle: string;
